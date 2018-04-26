@@ -1,0 +1,10 @@
+<h3>New User</h3>
+<%= form_for @user do |f| %>
+  <div class="form-group">
+    <%= f.label :phone %>
+    <%= f.text_field :phone %>
+  </div>
+  <div class="form-submit">
+    <%= f.submit %>
+  </div>
+<% end %>
